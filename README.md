@@ -38,7 +38,7 @@ Keep-alive: curl -v -H "Connection: keep-alive" http://localhost:8080/
 
 Path traversal: curl http://localhost:8080/../../../etc/passwd
 
-404 error: curl http://localhost:8080/nonexistent.html
+404 error: curl http://localhost:8080/404.html
 
 Conclusion:
 
